@@ -25,10 +25,10 @@
       auth="Container"
       type="javax.sql.DataSource"
       driverClassName="com.mysql.jdbc.Driver"
-      url="jdbc:mysql://localhost/dailymoldingworkg"
+      url="jdbc:mysql://localhost:3306/dailymoldingworkg"
       connectionProperties="autoReconnect=true;verifyServerCertificate=false;useSSL=false;requireSSL=false;useUnicode=true;characterEncoding=UTF-8;"
-      username="root"
-      password="T120353t120353"
+      username="kento68"
+      password="t120353120353"
       validationQuery="select 1"/>
 </Context>
 
@@ -42,17 +42,12 @@
 <!-- username="root" -->
 <!-- username="T120353t120353" -->
 
-                 <!-- Raspberry Pi(192.168.10.103 ) -->
+                 <!-- Raspberry Pi(192.168.10.118 ) -->
 <!-- url="jdbc:mysql://localhost:3306/dailymoldingworkg" -->
-<!-- username="kento68" -->
-<!-- password="t120353120353" -->
+<!-- username="kakuichi" -->
+<!-- password="kakukaku" -->
 
                  <!-- Raspberry Pi(192.168.10.122 ) -->
 <!-- url="jdbc:mysql://localhost:3306/dailymoldingworkg" -->
 <!-- username="kento68" -->
 <!-- password="t120353120353" -->
-
-                 <!-- Raspberry Pi(192.168.10.118 ) -->
-<!-- url="jdbc:mysql://localhost:3306/dailymoldingworkg" -->
-<!-- username="kakuichi" -->
-<!-- password="kakukaku" -->
